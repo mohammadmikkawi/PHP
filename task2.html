@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Validation Task Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form method="POST" action="handle2.php">
+
+        <label for="full_name">Full Name:</label>
+        <input type="text" name="full_name" id="full_name" placeholder="Enter your full name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="Enter your email">
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" placeholder="Enter your age">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter password">
+        <br><br>
+
+        <label>
+            <input type="checkbox" name="terms" value="accepted">
+            I agree to the terms and conditions
+        </label>
+        <br><br>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
